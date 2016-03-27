@@ -1,5 +1,5 @@
 <?php
-
+	echo "test";
    $json = file_get_contents("https://api.instagram.com/v1/users/XXXXXX/media/recent/?access_token=XXXX");
         $data = json_decode($json);
 
